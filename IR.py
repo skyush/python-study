@@ -14,15 +14,15 @@ elif ((annualSalary >base[0]) and (annualSalary <=base[1])):
 
 elif ((annualSalary >base[1]) and (annualSalary <=base[2])):
 
-    ir = (annualSalary - base[0]) * aliquot[0]
+    ir = (annualSalary - base[0]) * aliquot[1]
     print("O valor devido ao Fisco é de R$", "%.2f" % ir)
 
 elif ((annualSalary >base[2]) and (annualSalary <=base[3])):
 
-    ir = (annualSalary - base[0]) * aliquot[0]
+    ir = (annualSalary - base[0]) * aliquot[2]
     print("O valor devido ao Fisco é de R$", "%.2f" % ir)
     
 elif ((annualSalary >base[3])):
 
-    ir = (annualSalary - base[0]) * aliquot[0]
+    ir = (annualSalary - base[0]) * aliquot[3]
     print("O valor devido ao Fisco é de R$", "%.2f" % ir)
